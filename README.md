@@ -79,6 +79,21 @@ FfDL is a collaboration platform for:
 [HDFS on Kubernetes](https://github.com/apache-spark-on-k8s/kubernetes-HDFS) Repository holding helm charts for running Hadoop Distributed File System (HDFS) on Kubernetes. See [charts/README.md](https://github.com/apache-spark-on-k8s/kubernetes-HDFS/blob/master/charts/README.md) for how to run the charts. See [tests/README.md](https://github.com/apache-spark-on-k8s/kubernetes-HDFS/blob/master/tests/README.md) for how to run integration tests for HDFS on Kubernetes.
 
 
+[Apache Spark Helm Chart](https://github.com/helm/charts/tree/master/stable/spark) This chart will do the following:
+- 1 x Spark Master with port 8080 exposed on an external LoadBalancer
+- 3 x Spark Workers with HorizontalPodAutoscaler to scale to max 10 pods when CPU hits 50% of 100m
+- 1 x Zeppelin with port 8080 exposed on an external LoadBalancer
+- All using Kubernetes Deployments
+
+[Helm Chart for Spark Operator](https://github.com/helm/charts/tree/master/incubator/sparkoperator) This is the Helm chart for the Spark-on-Kubernetes Operator. Prerequisites: The Operator requires Kubernetes version 1.8 and above because it relies on garbage collection of custom resources. If customization of driver and executor pods (through mounting custom configMaps and volumes) is desired, then the Mutating Admission Webhook needs to be enabled and it only became beta in Kubernetes 1.9.
+
+The chart can be installed by running:
+```
+$ helm repo add incubator http://storage.googleapis.com/kubernetes-charts-incubator
+$ helm install incubator/sparkoperator
+```
+By default, the operator is installed in a namespace called "spark-operator". It would be created if it does not exist.
+
 [Kubernetes official examples](https://github.com/kubernetes/examples/tree/master/staging/spark) - (Not up to date) Following this example, you will create a functional Apache Spark cluster using Kubernetes and Docker. You will setup a Spark master service and a set of Spark workers using Spark's standalone mode [Spark on GlusterFS example](https://github.com/kubernetes/examples/tree/master/staging/spark/spark-gluster) (Also, not up to data) This guide is an extension of the standard Spark on Kubernetes Guide and describes how to run Spark on GlusterFS using the Kubernetes Volume Plugin for GlusterFS - The setup is the same in that you will setup a Spark Master Service in the same way you do with the standard Spark guide but you will deploy a modified Spark Master and a Modified Spark Worker ReplicationController, as they will be modified to use the GlusterFS volume plugin to mount a GlusterFS volume into the Spark Master and Spark Workers containers. Note that this example can be used as a guide for implementing any of the Kubernetes Volume Plugins with the Spark Example. There is also a [video available](https://youtu.be/xyIaoM0-gM0) that provides a walkthrough for how to set this solution up
 
 
