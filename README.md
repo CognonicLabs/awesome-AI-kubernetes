@@ -12,7 +12,7 @@ Note: A lot of volunteer effort by individuals supporting OSS is represented in 
 
 [Pachyderm](http://pachyderm.io/) Pachyderm is a tool for production data pipelines. If you need to chain together data scraping, ingestion, cleaning, munging, wrangling, processing, modeling, and analysis in a sane way, then Pachyderm is for you. If you have an existing set of scripts which do this in an ad-hoc fashion and you're looking for a way to "productionize" them, Pachyderm can make this easy for you. https://github.com/pachyderm/pachyderm
 
-[Fabric for Deep Learning - FfDL, pronounced fiddle] (https://developer.ibm.com/patterns/deploy-and-use-a-multi-framework-deep-learning-platform-on-kubernetes/)  Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes. This repository contains the core services of the FfDL (Fabric for Deep Learning) platform. FfDL is an operating system "fabric" for Deep Learning. https://github.com/IBM/FfDL
+[Fabric for Deep Learning - FfDL, pronounced fiddle](https://developer.ibm.com/patterns/deploy-and-use-a-multi-framework-deep-learning-platform-on-kubernetes/)  Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes. This repository contains the core services of the FfDL (Fabric for Deep Learning) platform. FfDL is an operating system "fabric" for Deep Learning. https://github.com/IBM/FfDL
 
 FfDL is a collaboration platform for:
 
@@ -22,3 +22,5 @@ FfDL is a collaboration platform for:
 - Running Deep Learning hosting in user's private or public cloud
 
 [PolyAxon](https://polyaxon.com/) Welcome to Polyaxon, a platform for building, training, and monitoring large scale deep learning applications.Polyaxon deploys into any data center, cloud provider, or can be hosted and managed by Polyaxon, and it supports all the major deep learning frameworks such as Tensorflow, MXNet, Caffe, Torch, etc. Polyaxon makes it faster, easier, and more efficient to develop deep learning applications by managing workloads with smart container and node management. And it turns GPU servers into shared, self-service resources for your team or organization https://github.com/polyaxon/polyaxon
+
+[Machine Learning Container Templates](https://github.com/IntelAI/mlt) from [IntelAI](http://ai.intel.com/) - mlt aids in the creation of containers for machine learning jobs. It does so by making it easy to use container and kubernetes object templates.
