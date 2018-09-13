@@ -1,27 +1,27 @@
 # :snowflake: :whale: awesome-AI-kubernetes
 Tools for AI, DL, ML, CV, DS, Analytics baked in the oven to be Native on [Kubernetes](http://kubernetes.io/)
 
-"The wind and the waves are always on the side of the ablest navigator." [Edmund Gibbon, Historian](http://www.seasky.org/quotes/sea-quotes-ocean-ships-sailing.html)
+*"The wind and the waves are always on the side of the ablest navigator."* [Edmund Gibbon, Historian](http://www.seasky.org/quotes/sea-quotes-ocean-ships-sailing.html)
 
 For a less specialized general purpose Kubernetes list, please check [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
 
-Note: A lot of volunteer effort by individuals supporting OSS is represented in this list. When you can, please consider giving feedback to the authors, testing their code and filing issue reports/feature requests and hit the Star button for their project. If your favorite project is missing from this list, please let me know.
+**Note:** A lot of volunteer effort by individuals supporting OSS is represented in this list. When you can, please consider giving feedback to the authors, testing their code and filing issue reports/feature requests and hit the Star button for their project. If your favorite project is missing from this list, please let me know.
 
-Kubernetes means "Helmsman" and originated with Google's Borg:
+Kubernetes means **Helmsman** and originated with Google's Borg:
 
-"Its development and design are heavily influenced by Google's Borg system, and many of the top contributors to the project previously worked on Borg. The original codename for Kubernetes within Google was Project Seven, a reference to Star Trek character Seven of Nine that is a 'friendlier' Borg. The seven spokes on the wheel of the Kubernetes logo is a nod to that codename." https://en.wikipedia.org/wiki/Kubernetes
+> "Its development and design are heavily influenced by Google's Borg system, and many of the top contributors to the project previously worked on Borg. The original codename for Kubernetes within Google was Project Seven, a reference to Star Trek character Seven of Nine that is a 'friendlier' Borg. The seven spokes on the wheel of the Kubernetes logo is a nod to that codename."  https://en.wikipedia.org/wiki/Kubernetes
 
-Note: I will attempt to sprinkle in various salty sea references in this document with perhaps some borg ones as well to stay with the spirit of the Kubernetes naming genesis...
+**Note:** I will attempt to sprinkle in various salty sea references in this document with perhaps some borg ones as well to stay with the spirit of the Kubernetes naming genesis...
 
 ### Helmsman of a Great Ship
 
-"The duties of the ruler are like those of the helmsman of a great ship. From his lofty position, he makes slight movements with his hands, and the ship, of itself, follows his desires and moves. This is the way whereby the one may control the ten thousand and by quiescence may regulate activity." [Han Fei](https://www.brainyquote.com/quotes/han_fei_875664)
+*"The duties of the ruler are like those of the helmsman of a great ship. From his lofty position, he makes slight movements with his hands, and the ship, of itself, follows his desires and moves. This is the way whereby the one may control the ten thousand and by quiescence may regulate activity."* [Han Fei](https://www.brainyquote.com/quotes/han_fei_875664)
 
 
 
 # ML designed for Kubernetes (i.e. Native Kube)
 
-"If you want to build a ship, don't drum up the men to gather wood, divide the work and give orders. Instead, teach them to yearn for the vast and endless sea." [Antoine de Saint Exupery](https://quotabulary.com/famous-quotes-about-sea-sailing)
+*"If you want to build a ship, don't drum up the men to gather wood, divide the work and give orders. Instead, teach them to yearn for the vast and endless sea."* [Antoine de Saint Exupery](https://quotabulary.com/famous-quotes-about-sea-sailing)
 
 
 [Kubeflow](http://kubeflow.org/)  Cloud Native platform for machine learning. https://github.com/kubeflow/kubeflow
@@ -45,7 +45,7 @@ FfDL is a collaboration platform for:
 
 # ML that is adapted for Kubernetes
 
-“Impossible” is a word that humans use far too often.[Seven of Nine](http://quotegeek.com/television-quotes/star-trek-voyager/)
+*“Impossible” is a word that humans use far too often."* [Seven of Nine](http://quotegeek.com/television-quotes/star-trek-voyager/)
 
 [Pipeline.AI](https://github.com/PipelineAI/pipeline) PipelineAI: Real-Time Enterprise AI Platform https://pipeline.ai - Quickstart for Kubernetes: https://github.com/PipelineAI/pipeline/tree/master/docs/quickstart/kubernetes
 
@@ -54,13 +54,14 @@ FfDL is a collaboration platform for:
 # Can Spark still be Master of the Sea?
 
 
-"Would'st thou," so the helmsman answered, "Learn the secret of the sea? Only those who brave its dangers Comprehend its mystery!" [Henry Wadsworth Longfellow](http://quotes.yourdictionary.com/helmsman)
+*"Would'st thou," so the helmsman answered, "Learn the secret of the sea? Only those who brave its dangers Comprehend its mystery!"* [Henry Wadsworth Longfellow](http://quotes.yourdictionary.com/helmsman)
 
-"Gentile or Jew
-O you who turn the wheel and look to windward,
-Consider Phlebas, who was once handsome and tall as you" [The Waste Land by T.S. Eliot](https://www.poetryfoundation.org/poems/47311/the-waste-land)
+> "Gentile or Jew
+> O you who turn the wheel and look to windward,
+> Consider Phlebas, who was once handsome and tall as you" 
+> [The Waste Land by T.S. Eliot](https://www.poetryfoundation.org/poems/47311/the-waste-land)
 
-Note: Kubernetes support was integrated into Spark with the 2.3 release. It is still incomplte and missing several important features, but it is a top priority for the Spark team.
+**Note:** Kubernetes support was integrated into Spark with the 2.3 release. It is still incomplte and missing several important features, but it is a top priority for the Spark team.
 
 [Spark Operator](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator) Kubernetes operator for specifying and managing the lifecycle of Apache Spark applications on Kubernetes. Spark Operator aims to make specifying and running Spark applications as easy and idiomatic as running other workloads on Kubernetes. It uses Kubernetes custom resources for specifying, running, and surfacing status of Spark applications. For a complete reference of the custom resource definitions, please refer to the API Definition. For details on its design, please refer to the design doc. It requires Spark 2.3 and above that supports Kubernetes as a native scheduler backend.
 
