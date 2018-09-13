@@ -5,6 +5,12 @@ For a less specialized general purpose Kubernetes list, please check [awesome-ku
 
 Note: A lot of volunteer effort by individuals supporting OSS is represented in this list. When you can, please consider giving feedback to the authors, testing their code and filing issue reports/feature requests and hit the Star button for their project. If your favorite project is missing from this list, please let me know.
 
+Kubernetes means "Helmsman" and originated with Google's Borg:
+
+"Its development and design are heavily influenced by Google's Borg system, and many of the top contributors to the project previously worked on Borg. The original codename for Kubernetes within Google was Project Seven, a reference to Star Trek character Seven of Nine that is a 'friendlier' Borg. The seven spokes on the wheel of the Kubernetes logo is a nod to that codename." https://en.wikipedia.org/wiki/Kubernetes
+
+#Kube does ML
+
 
 [Kubeflow](http://kubeflow.org/)  Cloud Native platform for machine learning. https://github.com/kubeflow/kubeflow
 
@@ -24,3 +30,21 @@ FfDL is a collaboration platform for:
 [PolyAxon](https://polyaxon.com/) Welcome to Polyaxon, a platform for building, training, and monitoring large scale deep learning applications.Polyaxon deploys into any data center, cloud provider, or can be hosted and managed by Polyaxon, and it supports all the major deep learning frameworks such as Tensorflow, MXNet, Caffe, Torch, etc. Polyaxon makes it faster, easier, and more efficient to develop deep learning applications by managing workloads with smart container and node management. And it turns GPU servers into shared, self-service resources for your team or organization https://github.com/polyaxon/polyaxon
 
 [Machine Learning Container Templates](https://github.com/IntelAI/mlt) from [IntelAI](http://ai.intel.com/) - mlt aids in the creation of containers for machine learning jobs. It does so by making it easy to use container and kubernetes object templates.
+
+#Can Spark still be Master of the Sea?
+
+"Gentile or Jew
+O you who turn the wheel and look to windward,
+Consider Phlebas, who was once handsome and tall as you" [The Waste Land by T.S. Eliot](https://www.poetryfoundation.org/poems/47311/the-waste-land)
+
+[Spark Operator](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator) Kubernetes operator for specifying and managing the lifecycle of Apache Spark applications on Kubernetes. Spark Operator aims to make specifying and running Spark applications as easy and idiomatic as running other workloads on Kubernetes. It uses Kubernetes custom resources for specifying, running, and surfacing status of Spark applications. For a complete reference of the custom resource definitions, please refer to the API Definition. For details on its design, please refer to the design doc. It requires Spark 2.3 and above that supports Kubernetes as a native scheduler backend.
+
+
+
+
+
+
+
+
+
+
