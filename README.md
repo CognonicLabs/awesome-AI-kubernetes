@@ -49,7 +49,7 @@ FfDL is a collaboration platform for:
 
 [Pipeline.AI](https://github.com/PipelineAI/pipeline) PipelineAI: Real-Time Enterprise AI Platform https://pipeline.ai - Quickstart for Kubernetes: https://github.com/PipelineAI/pipeline/tree/master/docs/quickstart/kubernetes
 
-
+[Helm Charts Apache Kafka](https://github.com/Landoop/kafka-helm-charts) Kubernetes Helm charts for Apache Kafka and Kafka Connect and other components for data streaming and data integration. [Stream-reactor](https://github.com/Landoop/stream-reactor) and Kafka Connectors any environment variable beginning with CONNECT is used to build the Kafka Connect properties file, the Connect cluster is started with this file in distributed mode.
 
 # Can Spark still be Master of the Sea?
 
@@ -67,9 +67,14 @@ Note: Kubernetes support was integrated into Spark with the 2.3 release. It is s
 
 [Multi cloud Spark application service on PKS](https://github.com/SnappyDataInc/spark-on-k8s) An Integrated and collaborative cloud environment for building and running Spark applications on PKS/Kubernetes. This project provides a streamlined way of deploying, scaling and managing Spark applications. Spark 2.3 added support for Kubernetes as a cluster manager. This project leverages Helm charts to allow deployment of common Spark application recipes - using Apache Zeppelin and/or Jupyter for interactive, collaborative workloads. It also automates logging of all events across batch jobs and Notebook driven applications to log events to shared storage for offline analysis. This project is a collaborative effort between SnappyData and Pivotal.
 
+[Sparknetes](https://github.com/hypnosapos/sparknetes) Spark on kubernetes. Based on official documentation of spark 2.3 at https://spark.apache.org/docs/2.3.0/running-on-kubernetes.html
 
 
+# Spark on OKD
 
+[Rad Analytics Spark Operator](https://github.com/radanalyticsio/spark-operator) ConfigMap and CRD based approach for managing the Spark clusters in Kubernetes or OpenShift.
+
+[OpenShift Spark](https://github.com/radanalyticsio/openshift-spark) This repository contains several files for building Apache Spark focused container images, targeted for usage on OpenShift Origin. [tutorial-sparkpi-java-vertx](https://github.com/radanalyticsio/tutorial-sparkpi-java-vertx) A Java implementation of SparkPi using Vert.x 3 - This application is an example tutorial for the radanalytics.io community. It is intended to be used as a source-to-image (s2i) application.
 
 
 
