@@ -9,7 +9,7 @@ Kubernetes means "Helmsman" and originated with Google's Borg:
 
 "Its development and design are heavily influenced by Google's Borg system, and many of the top contributors to the project previously worked on Borg. The original codename for Kubernetes within Google was Project Seven, a reference to Star Trek character Seven of Nine that is a 'friendlier' Borg. The seven spokes on the wheel of the Kubernetes logo is a nod to that codename." https://en.wikipedia.org/wiki/Kubernetes
 
-#Kube does ML
+# Kube does ML
 
 
 [Kubeflow](http://kubeflow.org/)  Cloud Native platform for machine learning. https://github.com/kubeflow/kubeflow
@@ -31,7 +31,7 @@ FfDL is a collaboration platform for:
 
 [Machine Learning Container Templates](https://github.com/IntelAI/mlt) from [IntelAI](http://ai.intel.com/) - mlt aids in the creation of containers for machine learning jobs. It does so by making it easy to use container and kubernetes object templates.
 
-#Can Spark still be Master of the Sea?
+# Can Spark still be Master of the Sea?
 
 "Gentile or Jew
 O you who turn the wheel and look to windward,
