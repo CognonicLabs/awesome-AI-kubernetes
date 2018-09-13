@@ -51,6 +51,10 @@ FfDL is a collaboration platform for:
 
 [Helm Charts Apache Kafka](https://github.com/Landoop/kafka-helm-charts) Kubernetes Helm charts for Apache Kafka and Kafka Connect and other components for data streaming and data integration. [Stream-reactor](https://github.com/Landoop/stream-reactor) and Kafka Connectors any environment variable beginning with CONNECT is used to build the Kafka Connect properties file, the Connect cluster is started with this file in distributed mode.
 
+[Bigdata Playground](https://github.com/Chabane/bigdata-playground) A complete example of a big data application using : Kubernetes, Apache Spark SQL/Streaming/MLib, Apache Flink, Kafka Streams, Apache Beam, Scala, Python, Apache Kafka, Apache Hbase, Apache Parquet, Apache Avro, Apache Storm, Twitter Api, MongoDB, NodeJS, Angular, GraphQL - The aim is to create a disposable Hadoop/HBase/Spark/Flink/Beam/ML stack where you can test your jobs locally or to submit them to the Yarn resource manager. We are using Docker to build the environment and Docker-Compose to provision it with the required components (Next step using Kubernetes). Along with the infrastructure, We are check that it works with 4 projects that just probes everything is working as expected. The boilerplate is based on a sample search flight web application.
+
+[Datalayer](https://github.com/datalayer/datalayer) Big Data Science on Kubernetes in the Cloud. https://datalayer.io Datalayer is building a Simple, Collaborative and Multi Cloud platform for Big Data Scientists. https://docs.datalayer.io 
+
 # Can Spark still be Master of the Sea?
 
 
@@ -71,6 +75,15 @@ FfDL is a collaboration platform for:
 [Multi cloud Spark application service on PKS](https://github.com/SnappyDataInc/spark-on-k8s) An Integrated and collaborative cloud environment for building and running Spark applications on PKS/Kubernetes. This project provides a streamlined way of deploying, scaling and managing Spark applications. Spark 2.3 added support for Kubernetes as a cluster manager. This project leverages Helm charts to allow deployment of common Spark application recipes - using Apache Zeppelin and/or Jupyter for interactive, collaborative workloads. It also automates logging of all events across batch jobs and Notebook driven applications to log events to shared storage for offline analysis. This project is a collaborative effort between SnappyData and Pivotal.
 
 [Sparknetes](https://github.com/hypnosapos/sparknetes) Spark on kubernetes. Based on official documentation of spark 2.3 at https://spark.apache.org/docs/2.3.0/running-on-kubernetes.html
+
+[HDFS on Kubernetes](https://github.com/apache-spark-on-k8s/kubernetes-HDFS) Repository holding helm charts for running Hadoop Distributed File System (HDFS) on Kubernetes. See [charts/README.md](https://github.com/apache-spark-on-k8s/kubernetes-HDFS/blob/master/charts/README.md) for how to run the charts. See [tests/README.md](https://github.com/apache-spark-on-k8s/kubernetes-HDFS/blob/master/tests/README.md) for how to run integration tests for HDFS on Kubernetes.
+
+
+
+
+
+
+
 
 
 # Spark on OKD
