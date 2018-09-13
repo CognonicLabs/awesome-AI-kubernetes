@@ -1,4 +1,4 @@
-:snowflake: :whale: # awesome-AI-kubernetes
+# :snowflake: :whale: awesome-AI-kubernetes
 Tools for AI, DL, ML, CV, DS, Analytics baked in the oven to be Native on [Kubernetes](http://kubernetes.io/)
 
 For a less specialized general purpose Kubernetes list, please check [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
