@@ -79,7 +79,7 @@ FfDL is a collaboration platform for:
 [HDFS on Kubernetes](https://github.com/apache-spark-on-k8s/kubernetes-HDFS) Repository holding helm charts for running Hadoop Distributed File System (HDFS) on Kubernetes. See [charts/README.md](https://github.com/apache-spark-on-k8s/kubernetes-HDFS/blob/master/charts/README.md) for how to run the charts. See [tests/README.md](https://github.com/apache-spark-on-k8s/kubernetes-HDFS/blob/master/tests/README.md) for how to run integration tests for HDFS on Kubernetes.
 
 
-
+[Kubernetes official examples](https://github.com/kubernetes/examples/tree/master/staging/spark) - (Not up to date) Following this example, you will create a functional Apache Spark cluster using Kubernetes and Docker. You will setup a Spark master service and a set of Spark workers using Spark's standalone mode
 
 
 
