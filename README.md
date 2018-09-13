@@ -37,6 +37,8 @@ FfDL is a collaboration platform for:
 O you who turn the wheel and look to windward,
 Consider Phlebas, who was once handsome and tall as you" [The Waste Land by T.S. Eliot](https://www.poetryfoundation.org/poems/47311/the-waste-land)
 
+Note: Kubernetes support was integrated into Spark with the 2.3 release. It is still incomplte and missing several important features, but it is a top priority for the Spark team.
+
 [Spark Operator](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator) Kubernetes operator for specifying and managing the lifecycle of Apache Spark applications on Kubernetes. Spark Operator aims to make specifying and running Spark applications as easy and idiomatic as running other workloads on Kubernetes. It uses Kubernetes custom resources for specifying, running, and surfacing status of Spark applications. For a complete reference of the custom resource definitions, please refer to the API Definition. For details on its design, please refer to the design doc. It requires Spark 2.3 and above that supports Kubernetes as a native scheduler backend.
 
 
