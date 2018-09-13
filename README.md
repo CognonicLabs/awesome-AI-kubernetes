@@ -56,11 +56,11 @@ FfDL is a collaboration platform for:
 
 *"Would'st thou," so the helmsman answered, "Learn the secret of the sea? Only those who brave its dangers Comprehend its mystery!"* [Henry Wadsworth Longfellow](http://quotes.yourdictionary.com/helmsman)
 
-'''
+```
 "Gentile or Jew
  O you who turn the wheel and look to windward,
  Consider Phlebas, who was once handsome and tall as you" 
- '''
+ ```
  [The Waste Land by T.S. Eliot](https://www.poetryfoundation.org/poems/47311/the-waste-land)
 
 **Note:** Kubernetes support was integrated into Spark with the 2.3 release. It is still incomplte and missing several important features, but it is a top priority for the Spark team.
