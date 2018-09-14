@@ -275,6 +275,52 @@ In addition, Analytics Zoo also provides a rich set of analytics and AI support 
 
 ---
 
+[Brigade](https://brigade.sh/) Event-based Scripting for Kubernetes. https://github.com/Azure/brigade Script simple and complex workflows using JavaScript. Chain together containers, running them in parallel or serially. Fire scripts based on times, GitHub events, Docker pushes, or any other trigger. Brigade is the tool for creating pipelines for Kubernetes.
+- JavaScript scripting
+- Project-based management
+- Configurable event hooks
+- Easy construction of pipelines
+- Check out the [docs](https://azure.github.io/brigade/) to get started.
+
+The Brigade Technology Stack
+
+- Brigade ❤️ JavaScript: Writing Brigade pipelines is as easy as writing a few lines of JavaScript.
+- Brigade ❤️ Kubernetes: Brigade is Kubernetes-native. Your builds are translated into pods, secrets, and services
+- Brigade ❤️ Docker: No need for special plugins or elaborate extensions. Brigade uses off-the-shelf Docker images to run your jobs. And Brigade also supports DockerHub webhooks.
+- Brigade ❤️ GitHub: Brigade comes with built-in support for GitHub, DockerHub, and other popular web services. And it can be easily extended to support your own services.
+
+The [design introduction](https://azure.github.io/brigade/topics/design.html) introduces Brigade concepts and architecture.
+
+Related Projects
+
+- [Kashti](https://github.com/Azure/kashti) - a dashboard for your Brigade pipelines.
+- [Brigadeterm](https://github.com/slok/brigadeterm) - a simple terminal ui for brigade pipelining system.
+- [Brigade exporter](https://github.com/slok/brigade-exporter) - a [Prometheus](https://prometheus.io/) exporter to gather metrics from Brigade.
+
+Gateways
+
+- [BitBucket events](https://github.com/lukepatrick/brigade-bitbucket-gateway): Gateway Support for BitBucket repositories
+- [GitLab events](https://github.com/lukepatrick/brigade-gitlab-gateway): Gateway Support for GitLab repositories
+- [Kubernetes events](https://github.com/azure/brigade-k8s-gateway): Gateway that listens to Kubernetes event stream
+- [Event Grid gateway](https://github.com/radu-matei/brigade-eventgrid-gateway): Gateway for Azure Event Grid events
+- [Cron Gateway](https://github.com/technosophos/brigade-cron): Schedule events to run at a particular time
+- [Trello and Generic Webhooks](https://github.com/technosophos/brigade-trello): Experimental gateway for Trello and for generic webhooks
+- [Draft Pack for Building Custom Gateways](https://github.com/technosophos/draft-brigade): Build your own gateway in [5 minutes](http://technosophos.com/2018/04/23/building-brigade-gateways-the-easy-way.html)
+
+[Kashti](http://kashti.sh/) Kashti is a dashboard for your Brigade pipelines. https://github.com/Azure/kashti Brigade provides event-driven scripting for Kubernetes. With a simple JavaScript file, you can build elaborate pipelines composed of multiple containers running in parallel or serially. Among other possible applications, Brigade can be used to build highly flexible CI/CD pipelines. Kashti is a web dashboard for Brigade, helping you easily visualize and inspect your Brigade builds. Kashti gives you a deep view into your Brigade projects, scripts, and jobs.
+
+[Brigade Kubernetes Gateway](https://github.com/Azure/brigade-k8s-gateway) Send Kubernetes events into a Brigade pipeline. This is a Brigade gateway that listens to the Kubernetes event stream and triggers events inside of Brigade.
+
+[Brigadier: The JS library for Brigade](https://github.com/Azure/brigadier) Brigadier is the events and jobs library for Brigade. This is the core of the Brigadier library, but the Kubernetes runtime is part of Brigade itself. To run a brigade.js file in Kubernetes, it will need to be executed within Brigade. This library is useful for:
+- testing brigade.js files
+- extending Brigade's worker
+- supporting code completion in tooling
+- implementing alternative Brigade backends
+
+
+
+---
+
 # The Other Category
 
 ---
