@@ -5,7 +5,59 @@ Tools for AI, DL, ML, CV, DS, Analytics baked in the oven to be Native on [Kuber
 
 ---
 
-For a less specialized general purpose Kubernetes list, please check [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
+For this list, I am focused on AI/ML/Data Science OSS Tools that run in an infinitely scaleable Kubernetes environment. You might be looking for something a little less specific and here are some suggestions:
+
+**Kubernetes** 
+
+- a general purpose Kubernetes list, [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
+- [Awesome Helm](https://github.com/cdwv/awesome-helm)
+- [Awesome Operators](https://github.com/operator-framework/awesome-operators)
+- [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
+- [container-security-awesome](https://github.com/kai5263499/container-security-awesome)
+- [Awesome Linux Containers](https://github.com/Friz-zy/awesome-linux-containers)
+
+**Spark**
+
+- [Awesome Spark](https://github.com/awesome-spark/awesome-spark)
+- [Awesome Apache Spark Packages](https://github.com/Mageswaran1989/awesome-ApacheSpark-collections)
+- [Awesome Scala](https://github.com/lauris/awesome-scala)
+
+**AI/ML**
+
+- [awesome-AIOps](https://github.com/linjinjin123/awesome-AIOps)
+- [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl)
+- [Awesome Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence)
+- [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
+- [Awesome StarCraft AI](https://github.com/SKTBrain/awesome-starcraftAI)
+- [Awesome Quantum Machine Learning](https://github.com/krishnakumarsekar/awesome-quantum-machine-learning)
+- [Awesome AI](https://github.com/hades217/awesome-ai)
+- [Awesome Feature Engineering for Machine Learning](https://github.com/aikho/awesome-feature-engineering)
+- [Awesome WindowsML ONNX Models](https://github.com/ChangweiZhang/Awesome-WindowsML-ONNX-Models)
+- [Awesome Blockchain AI](https://github.com/steven2358/awesome-blockchain-ai)
+- [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
+- [Awesome Deep Learning Resources](https://github.com/guillaume-chevalier/Awesome-Deep-Learning-Resources)
+- [awesome-nlp](https://github.com/keon/awesome-nlp)
+- [Awesome-Pytorch-list](https://github.com/bharathgs/Awesome-pytorch-list)
+- [awesome-ai-services](https://github.com/sekwiatkowski/awesome-ai-services)
+- [awesome_list_ai_bot_programming](https://github.com/stuffyjumpy/awesome_list_ai_bot_programming)
+- [Machine Learning & Deep Learning Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
+- [Awesome Machine Learning On Source Code](https://github.com/src-d/awesome-machine-learning-on-source-code)
+- [awesome-machine-learning-interpretability](https://github.com/jphall663/awesome-machine-learning-interpretability)
+- [Awesome Interpretable Machine Learning](https://github.com/lopusz/awesome-interpretable-machine-learning)
+- [Awesome-AutoML](https://github.com/hibayesian/awesome-automl-papers)
+- [Awesome H2O](https://github.com/h2oai/awesome-h2o)
+
+
+**Other**
+
+- [Awesome Apache Airflow](https://github.com/jghoman/awesome-apache-airflow)
+- [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata)
+- [Awesome-BigData](https://github.com/Harshakvarma/Awesome-BigData)
+- [Awesome Analytics](https://github.com/onurakpolat/awesome-analytics)
+- [Awesome Data Science](https://github.com/bulutyazilim/awesome-datascience)
+
+
+
 
 ---
 
