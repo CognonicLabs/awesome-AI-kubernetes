@@ -27,6 +27,10 @@ You might also be looking for something far less specific and here are some sugg
 **AI/ML**
 
 - [awesome-AIOps](https://github.com/linjinjin123/awesome-AIOps)
+- [Awesome Julia](https://github.com/greister/Awesome-Julia)
+- [Awesome R](https://github.com/qinwf/awesome-R)
+- [Awesome Bioinformatics](https://github.com/shenwei356/awesome/blob/master/bioinformatics.md)
+- [Awesome Recurrent Neural Networks](https://github.com/kjw0612/awesome-rnn)
 - [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl)
 - [Awesome Artificial Intelligence](https://github.com/owainlewis/awesome-artificial-intelligence)
 - [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning)
@@ -35,6 +39,8 @@ You might also be looking for something far less specific and here are some sugg
 - [Awesome AI](https://github.com/hades217/awesome-ai)
 - [Awesome Feature Engineering for Machine Learning](https://github.com/aikho/awesome-feature-engineering)
 - [Awesome WindowsML ONNX Models](https://github.com/ChangweiZhang/Awesome-WindowsML-ONNX-Models)
+- [Awesome-ONNX-Models](https://github.com/ChangweiZhang/Awesome-ONNX-Models)
+- [Awesome TensorFlow](https://github.com/jtoy/awesome-tensorflow)
 - [Awesome Blockchain AI](https://github.com/steven2358/awesome-blockchain-ai)
 - [Awesome Deep Learning](https://github.com/ChristosChristofidis/awesome-deep-learning)
 - [Awesome Deep Learning Resources](https://github.com/guillaume-chevalier/Awesome-Deep-Learning-Resources)
@@ -49,6 +55,8 @@ You might also be looking for something far less specific and here are some sugg
 - [Awesome-AutoML](https://github.com/hibayesian/awesome-automl-papers)
 - [Awesome H2O](https://github.com/h2oai/awesome-h2o)
 - [Awesome MXNet](https://github.com/chinakook/Awesome-MXNet)
+- [Awesome Bots](https://github.com/hackerkid/bots)
+- [Awesome ChatOps](https://github.com/exAspArk/awesome-chatops)
 
 
 
@@ -93,6 +101,8 @@ Kubernetes means **Helmsman** and originated with Google's Borg:
 ---
 
 [Kubeflow](http://kubeflow.org/)  Cloud Native platform for machine learning. https://github.com/kubeflow/kubeflow
+
+[Kubeflow Labs](https://github.com/Azure/kubeflow-labs) Train and Serve TensorFlow Models at Scale with Kubernetes and Kubeflow on Azure
 
 ---
 
@@ -216,6 +226,14 @@ By default, the operator is installed in a namespace called "spark-operator". It
 
 [Helm Chart for Elastic-Fluentd-Kibana logging](https://github.com/cdwv/efk-stack-helm) Helm chart to deploy a working logging solution using the ElasticSearch - Fluentd - Kibana stack on Kubernetes
 
+
+---
+
+[Draft](https://draft.sh/) A tool for developers to create cloud-native applications on Kubernetes https://github.com/Azure/draft Draft makes it easier for developers to build applications that run on Kubernetes by doing two main things:
+- The draft create command gives developers the artifacts they need to build and run their applications in Kubernetes
+- The draft up command builds the container image for an application and deploys it to Kubernetes
+
+[Draft Pack Repository Plugin](https://github.com/draftcreate/draft-pack-repo) Draft Pack Repository Plugin (or draft pack-repo for short) enables users to fetch, list, add and remove pack repositories to bootstrap all of their internal and external projects. It is incredibly opinionated on how to fetch, list, add and remove these repositories whereas Draft core does not care about these concepts.  This also enables the Draft community to come up alternative forms of pack repositories by implementing their own plugin for fetching down these packs, so it made sense to initially spike the tooling as an entirely separate project.
 
 ---
 
