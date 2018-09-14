@@ -149,6 +149,17 @@ By default, the operator is installed in a namespace called "spark-operator". It
 
 [OpenShift Spark](https://github.com/radanalyticsio/openshift-spark) This repository contains several files for building Apache Spark focused container images, targeted for usage on OpenShift Origin. [tutorial-sparkpi-java-vertx](https://github.com/radanalyticsio/tutorial-sparkpi-java-vertx) A Java implementation of SparkPi using Vert.x 3 - This application is an example tutorial for the radanalytics.io community. It is intended to be used as a source-to-image (s2i) application.
 
+# Some Utils and Accessories
 
 
+---
+
+
+# The Other Category
+
+---
+
+[podder-ai](https://github.com/podder-ai) has some tangentialy conncected material that appears to be working towards a coherent Kubernetes ML system. [Kubeb](https://github.com/podder-ai/kubeb) Kubeb (Cubeb or Cubeba) provide CLI to build and deploy a web application to Kubernetes environment Kubeb use Docker & Helm chart for Kubernetes deployment [pipeline-framework](https://github.com/podder-ai/pipeline-framework) pipeline-framework is a platform to schedule and monitor workflows based on [Apache Airflow](https://airflow.apache.org/) [pipeline-generator](https://github.com/podder-ai/pipeline-generator) Generator code for pipeline-framework. [pipeline-framework-sample](https://github.com/podder-ai/pipeline-framework-sample) This is sample project of pipeline-framework, started from pipeline-generator, and sample task is based on poc-base-sample.[poc-base-sample](https://github.com/podder-ai/poc-base-sample)Sample task implementation for Podder.ai pipeline framework. How to implement a task using poc-base repository [poc-base](https://github.com/podder-ai/poc-base) Boilerplate project for creating python task using the Pipeline-framework.
+
+---
 
