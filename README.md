@@ -5,7 +5,9 @@ Tools for AI, DL, ML, CV, DS, Analytics baked in the oven to be Native on [Kuber
 
 ---
 
-For this list, I am focused on AI/ML/Data Science OSS Tools that run in an infinitely scaleable Kubernetes environment. You might be looking for something a little less specific and here are some suggestions:
+For this list, I am focused on AI/ML/Data Science OSS Tools that run in an infinitely scaleable Kubernetes environment. Another list that shares some scaling orchestration resources in a more genaral way is [Machine Learning Operations](https://github.com/axsauze/awesome-machine-learning-operations)
+
+You might also be looking for something far less specific and here are some suggestions:
 
 **Kubernetes** 
 
@@ -46,6 +48,7 @@ For this list, I am focused on AI/ML/Data Science OSS Tools that run in an infin
 - [Awesome Interpretable Machine Learning](https://github.com/lopusz/awesome-interpretable-machine-learning)
 - [Awesome-AutoML](https://github.com/hibayesian/awesome-automl-papers)
 - [Awesome H2O](https://github.com/h2oai/awesome-h2o)
+- [Awesome MXNet](https://github.com/chinakook/Awesome-MXNet)
 
 
 **Other**
