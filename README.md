@@ -51,14 +51,19 @@ You might also be looking for something far less specific and here are some sugg
 - [Awesome MXNet](https://github.com/chinakook/Awesome-MXNet)
 
 
+
 **Other**
 
 - [Awesome Apache Airflow](https://github.com/jghoman/awesome-apache-airflow)
 - [Awesome Big Data](https://github.com/onurakpolat/awesome-bigdata)
 - [Awesome-BigData](https://github.com/Harshakvarma/Awesome-BigData)
+- [awesome-datasets](https://github.com/datasciencethgrp/awesome-datasets)
 - [Awesome Analytics](https://github.com/onurakpolat/awesome-analytics)
 - [Awesome Data Science](https://github.com/bulutyazilim/awesome-datascience)
-
+- [Awesome Pipeline](https://github.com/pditommaso/awesome-pipeline)
+- [Awesome Nextflow](https://github.com/nextflow-io/awesome-nextflow)
+- [awesome-etl](https://github.com/pawl/awesome-etl)
+- [Awesome Business Intelligence](https://github.com/thenaturalist/awesome-business-intelligence)
 
 
 
@@ -209,6 +214,10 @@ By default, the operator is installed in a namespace called "spark-operator". It
 
 ---
 
+[Helm Chart for Elastic-Fluentd-Kibana logging](https://github.com/cdwv/efk-stack-helm) Helm chart to deploy a working logging solution using the ElasticSearch - Fluentd - Kibana stack on Kubernetes
+
+
+---
 
 # The Other Category
 
