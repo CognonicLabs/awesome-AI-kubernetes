@@ -206,9 +206,29 @@ By default, the operator is installed in a namespace called "spark-operator". It
 
 [Kubernetes official examples](https://github.com/kubernetes/examples/tree/master/staging/spark) - (Not up to date) Following this example, you will create a functional Apache Spark cluster using Kubernetes and Docker. You will setup a Spark master service and a set of Spark workers using Spark's standalone mode [Spark on GlusterFS example](https://github.com/kubernetes/examples/tree/master/staging/spark/spark-gluster) (Also, not up to data) This guide is an extension of the standard Spark on Kubernetes Guide and describes how to run Spark on GlusterFS using the Kubernetes Volume Plugin for GlusterFS - The setup is the same in that you will setup a Spark Master Service in the same way you do with the standard Spark guide but you will deploy a modified Spark Master and a Modified Spark Worker ReplicationController, as they will be modified to use the GlusterFS volume plugin to mount a GlusterFS volume into the Spark Master and Spark Workers containers. Note that this example can be used as a guide for implementing any of the Kubernetes Volume Plugins with the Spark Example. There is also a [video available](https://youtu.be/xyIaoM0-gM0) that provides a walkthrough for how to set this solution up
 
+---
 
+[Intel BigDL](https://bigdl-project.github.io/) BigDL: Distributed Deep Learning Library for Apache Spark  https://github.com/intel-analytics/BigDL - BigDL is a distributed deep learning library for Apache Spark; with BigDL, users can write their deep learning applications as standard Spark programs, which can directly run on top of existing Spark or Hadoop clusters. To makes it easy to build Spark and BigDL applications, a high level Analytics Zoo is provided for end-to-end analytics + AI pipelines.
+- Rich deep learning support. Modeled after Torch, BigDL provides comprehensive support for deep learning, including numeric computing (via Tensor) and high level neural networks; in addition, users can load pre-trained Caffe or Torch models into Spark programs using BigDL.
+- Extremely high performance. To achieve high performance, BigDL uses Intel MKL and multi-threaded programming in each Spark task. Consequently, it is orders of magnitude faster than out-of-box open source Caffe, Torch or TensorFlow on a single-node Xeon (i.e., comparable with mainstream GPU).
+- Efficiently scale-out. BigDL can efficiently scale out to perform data analytics at "Big Data scale", by leveraging Apache Spark (a lightning fast distributed data processing framework), as well as efficient implementations of synchronous SGD and all-reduce communications on Spark.
+[BigDL-core](https://github.com/intel-analytics/BigDL-core) Core HW bindings and optimizations for BigDL
+[Getting Started](https://bigdl-project.github.io/master/#getting-started/)
+[Deep Learning Tutorials on Apache Spark using BigDL](https://github.com/intel-analytics/BigDL-tutorials) Step-by-step Deep Learning Tutorials on Apache Spark using BigDL. The tutorials are inspired by Apache Spark examples, the Theano Tutorials and the Tensorflow tutorials.
+[ElephantScale BigDL Tutorials](https://github.com/elephantscale/bigdl-tutorials)
+[LetNet/BigDL Workshop](https://github.com/alex-kalinin/lenet-bigdl) Notebooks for LetNet/BigDL deep learning workshop. The workshop environment is available for download in a Docker container.
+[Intel Analytics Zoo](https://analytics-zoo.github.io/) Distributed Tensorflow, Keras and BigDL on Apache Spark  - https://github.com/intel-analytics/analytics-zoo - Analytics Zoo provides a unified analytics + AI platform that seamlessly unites Spark, TensorFlow, Keras and BigDL programs into an integrated pipeline; the entire pipeline can then transparently scale out to a large Hadoop/Spark cluster for distributed training or inference.
+- Data wrangling and analysis using PySpark
+- Deep learning model development using TensorFlow or Keras
+- Distributed training/inference on Spark and BigDL
+- All within a single unified pipeline and in a user-transparent fashion!
+In addition, Analytics Zoo also provides a rich set of analytics and AI support for the end-to-end pipeline, including:
+- Easy-to-use abstractions and APIs (e.g., transfer learning support, autograd operations, Spark DataFrame and ML pipeline support, online model serving API, etc.)
+- Common feature engineering operations (for image, text, 3D image, etc.)
+- Built-in deep learning models (e.g., object detection, image classification, text classification, recommendation, etc.)
+- Reference use cases (e.g., anomaly detection, sentiment analysis, fraud detection, image similarity, etc.)
 
-
+---
 
 
 # Spark on OKD
