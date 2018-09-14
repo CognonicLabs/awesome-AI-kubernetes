@@ -212,11 +212,17 @@ By default, the operator is installed in a namespace called "spark-operator". It
 - Rich deep learning support. Modeled after Torch, BigDL provides comprehensive support for deep learning, including numeric computing (via Tensor) and high level neural networks; in addition, users can load pre-trained Caffe or Torch models into Spark programs using BigDL.
 - Extremely high performance. To achieve high performance, BigDL uses Intel MKL and multi-threaded programming in each Spark task. Consequently, it is orders of magnitude faster than out-of-box open source Caffe, Torch or TensorFlow on a single-node Xeon (i.e., comparable with mainstream GPU).
 - Efficiently scale-out. BigDL can efficiently scale out to perform data analytics at "Big Data scale", by leveraging Apache Spark (a lightning fast distributed data processing framework), as well as efficient implementations of synchronous SGD and all-reduce communications on Spark.
+
 [BigDL-core](https://github.com/intel-analytics/BigDL-core) Core HW bindings and optimizations for BigDL
+
 [Getting Started](https://bigdl-project.github.io/master/#getting-started/)
+
 [Deep Learning Tutorials on Apache Spark using BigDL](https://github.com/intel-analytics/BigDL-tutorials) Step-by-step Deep Learning Tutorials on Apache Spark using BigDL. The tutorials are inspired by Apache Spark examples, the Theano Tutorials and the Tensorflow tutorials.
+
 [ElephantScale BigDL Tutorials](https://github.com/elephantscale/bigdl-tutorials)
+
 [LetNet/BigDL Workshop](https://github.com/alex-kalinin/lenet-bigdl) Notebooks for LetNet/BigDL deep learning workshop. The workshop environment is available for download in a Docker container.
+
 [Intel Analytics Zoo](https://analytics-zoo.github.io/) Distributed Tensorflow, Keras and BigDL on Apache Spark  - https://github.com/intel-analytics/analytics-zoo - Analytics Zoo provides a unified analytics + AI platform that seamlessly unites Spark, TensorFlow, Keras and BigDL programs into an integrated pipeline; the entire pipeline can then transparently scale out to a large Hadoop/Spark cluster for distributed training or inference.
 - Data wrangling and analysis using PySpark
 - Deep learning model development using TensorFlow or Keras
