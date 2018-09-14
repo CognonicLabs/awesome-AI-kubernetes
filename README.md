@@ -5,6 +5,28 @@ Tools for AI, DL, ML, CV, DS, Analytics baked in the oven to be Native on [Kuber
 
 ---
 
+**Introduction**
+
+The entire computing industry has adopted Kubernetes as the way forward to running distibuted computing loads from on-premise servers to large multi-cloud deployments.
+
+For Machine Learning and Data Science workloads that are often prototyped on informal tools like JupyterLab, the awareness of Kubernetes has lagged somewhat. 
+
+**Kubernetes Advantages for ML**
+
+- almost infinite and flexible automatic scaling of processing resources
+- almost universal runtime flexibility to deploy to any cloud
+- incredible and complete industry adoption, check out every Titan of the Tech Industry here: https://www.cncf.io/about/members/ (and to a large extent, "Cloud Native" means "anything designed to work with Kubernetes")
+- finally the promise of self-healing applications can be realized
+
+**Kubernetes Issues to Consider for ML**
+
+- every application is organized in one or more Docker containers (or other compatible containers) and those containers need to be light weight if scaling is to be a realistic consideration
+- containers are immutable which allows the self-healing ability of Kubernetes as well as efficient scaling and placement of containers where they can be efficiently slotted into a server cluster
+- for Data Scientists new to Kubernetes it may not be obvious that provisioning of Kubernetes persitent storage is a key item for your data pipelines - take a look at [Rook](https://rook.io) to see one good approach to this issue.
+- for Data Scientists new to Kubernetes it may not be obvious that the fluid movement and destruction of containers means that talking to your own application takes on a whole new meaning. The rise of the "Service Mesh" can be very helpful here: http://layer5.io/service-meshes/
+
+---
+
 For this list, I am focused on AI/ML/Data Science OSS Tools that run in an infinitely scaleable Kubernetes environment. Another list that shares some scaling orchestration resources in a more general way is [Awesome Machine Learning Operations](https://github.com/axsauze/awesome-machine-learning-operations)
 
 You might also be looking for something far less specific and here are some suggestions:
