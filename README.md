@@ -245,6 +245,18 @@ In addition, Analytics Zoo also provides a rich set of analytics and AI support 
 
 [OpenShift Spark](https://github.com/radanalyticsio/openshift-spark) This repository contains several files for building Apache Spark focused container images, targeted for usage on OpenShift Origin. [tutorial-sparkpi-java-vertx](https://github.com/radanalyticsio/tutorial-sparkpi-java-vertx) A Java implementation of SparkPi using Vert.x 3 - This application is an example tutorial for the radanalytics.io community. It is intended to be used as a source-to-image (s2i) application.
 
+# Beam
+
+---
+
+[beam-operator](https://github.com/aleksdjuricin/beam-operator) This operator manages [Apache Beam](https://beam.apache.org/) instances on Kubernetes, simplifying creation and administration.
+
+[Scheduled Apache Beam jobs using Kubernetes Cronjobs](https://github.com/sanderploegsma/beam-scheduling-kubernetes) Scheduled Dataflow pipelines using Kubernetes Cronjobs
+
+[Google Cloud Dataflow Template Pipelines](https://github.com/GoogleCloudPlatform/DataflowTemplates) These Dataflow templates are an effort to solve simple, but large, in-Cloud data tasks, including data import/export/backup/restore and bulk API operations, without a development environment. The technology under the hood which makes these operations possible is the Google Cloud Dataflow service combined with a set of Apache Beam SDK templated pipelines. Google is providing this collection of pre-implemented Dataflow templates as a reference and to provide easy customization for developers wanting to extend their functionality.
+
+---
+
 # Some Utils and Accessories
 
 
