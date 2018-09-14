@@ -1,4 +1,4 @@
-# :snowflake: :whale: awesome-AI-kubernetes
+# :snowflake: :whale: Awesome AI, ML and Data Science on Kubernetes
 Tools for AI, DL, ML, CV, DS, Analytics baked in the oven to be Native on [Kubernetes](http://kubernetes.io/)
 
 *"The wind and the waves are always on the side of the ablest navigator."* [Edmund Gibbon, Historian](http://www.seasky.org/quotes/sea-quotes-ocean-ships-sailing.html)
