@@ -151,7 +151,15 @@ FfDL is a collaboration platform for:
 
 ---
 
+[Datalayer](https://github.com/datalayer/datalayer) Big Data Science on Kubernetes in the Cloud. https://datalayer.io Datalayer is building a Simple, Collaborative and Multi Cloud platform for Big Data Scientists. https://docs.datalayer.io 
+
+---
+
 [Machine Learning Container Templates](https://github.com/IntelAI/mlt) from [IntelAI](http://ai.intel.com/) - mlt aids in the creation of containers for machine learning jobs. It does so by making it easy to use container and kubernetes object templates.
+
+---
+
+
 
 # ML that is adapted for Kubernetes
 
@@ -171,7 +179,43 @@ FfDL is a collaboration platform for:
 
 ---
 
-[Datalayer](https://github.com/datalayer/datalayer) Big Data Science on Kubernetes in the Cloud. https://datalayer.io Datalayer is building a Simple, Collaborative and Multi Cloud platform for Big Data Scientists. https://docs.datalayer.io 
+# Pipeline and Data Flow
+
+---
+
+[Banzai Pipeline](https://github.com/banzaicloud/pipeline) Pipeline enables developers to go from commit to scale in minutes by turning Kubernetes into a feature rich application platform integrating CI/CD, centralized logging, monitoring, enterprise-grade security and autoscaling.
+
+---
+
+[Argo](https://argoproj.github.io/) Get stuff done with container-native workflows for Kubernetes. https://github.com/argoproj/argo Argo is designed from the ground up for containers without the overhead and limitations of legacy VM and server-based environments. Argo is cloud agnostic and can run on any kubernetes cluster. Argo with Kubernetes puts a cloud-scale supercomputer at your fingertips.
+
+[Argo Events](https://github.com/argoproj/argo-events) Argo Events is an open source event-based dependency manager for Kubernetes. The core concept of the project are sensors which are implemented as Kubernetes-native Custom Resource Definition that define a set of dependencies (signals) and actions (triggers). The sensor's triggers will only be fired after it's signals have been resolved. Sensors can trigger once or repeatedly.
+
+
+---
+
+[Airflow](https://airflow.apache.org/) Apache Airflow (or simply Airflow) is a platform to programmatically author, schedule, and monitor workflows. When workflows are defined as code, they become more maintainable, versionable, testable, and collaborative. Use Airflow to author workflows as directed acyclic graphs (DAGs) of tasks. The Airflow scheduler executes your tasks on an array of workers while following the specified dependencies. Rich command line utilities make performing complex surgeries on DAGs a snap. The rich user interface makes it easy to visualize pipelines running in production, monitor progress, and troubleshoot issues when needed.
+
+[ETL best practices with airflow](https://gtoonstra.github.io/etl-with-airflow/) What you will find here are interesting examples, usage patterns and ETL principles that I thought are going to help people use airflow to much better effect. https://github.com/gtoonstra/etl-with-airflow
+
+[kube-airflow](https://github.com/mumoshu/kube-airflow) kube-airflow provides a set of tools to run Airflow in a Kubernetes cluster.
+
+[Airflow Operator](https://github.com/GoogleCloudPlatform/airflow-operator) Airflow Operator is a custom Kubernetes operator that makes it easy to deploy and manage Apache Airflow on Kubernetes. Apache Airflow is a platform to programmatically author, schedule and monitor workflows. Using the Airflow Operator, an Airflow cluster is split into 2 parts represented by the AirflowBase and AirflowCluster custom resources. 
+
+
+---
+
+**Beam**
+
+[beam-operator](https://github.com/aleksdjuricin/beam-operator) This operator manages [Apache Beam](https://beam.apache.org/) instances on Kubernetes, simplifying creation and administration.
+
+[Scheduled Apache Beam jobs using Kubernetes Cronjobs](https://github.com/sanderploegsma/beam-scheduling-kubernetes) Scheduled Dataflow pipelines using Kubernetes Cronjobs
+
+[Google Cloud Dataflow Template Pipelines](https://github.com/GoogleCloudPlatform/DataflowTemplates) These Dataflow templates are an effort to solve simple, but large, in-Cloud data tasks, including data import/export/backup/restore and bulk API operations, without a development environment. The technology under the hood which makes these operations possible is the Google Cloud Dataflow service combined with a set of Apache Beam SDK templated pipelines. Google is providing this collection of pre-implemented Dataflow templates as a reference and to provide easy customization for developers wanting to extend their functionality.
+
+---
+
+---
 
 # Can Spark still be Master of the Sea?
 
@@ -267,17 +311,7 @@ In addition, Analytics Zoo also provides a rich set of analytics and AI support 
 
 [OpenShift Spark](https://github.com/radanalyticsio/openshift-spark) This repository contains several files for building Apache Spark focused container images, targeted for usage on OpenShift Origin. [tutorial-sparkpi-java-vertx](https://github.com/radanalyticsio/tutorial-sparkpi-java-vertx) A Java implementation of SparkPi using Vert.x 3 - This application is an example tutorial for the radanalytics.io community. It is intended to be used as a source-to-image (s2i) application.
 
-# Beam
 
----
-
-[beam-operator](https://github.com/aleksdjuricin/beam-operator) This operator manages [Apache Beam](https://beam.apache.org/) instances on Kubernetes, simplifying creation and administration.
-
-[Scheduled Apache Beam jobs using Kubernetes Cronjobs](https://github.com/sanderploegsma/beam-scheduling-kubernetes) Scheduled Dataflow pipelines using Kubernetes Cronjobs
-
-[Google Cloud Dataflow Template Pipelines](https://github.com/GoogleCloudPlatform/DataflowTemplates) These Dataflow templates are an effort to solve simple, but large, in-Cloud data tasks, including data import/export/backup/restore and bulk API operations, without a development environment. The technology under the hood which makes these operations possible is the Google Cloud Dataflow service combined with a set of Apache Beam SDK templated pipelines. Google is providing this collection of pre-implemented Dataflow templates as a reference and to provide easy customization for developers wanting to extend their functionality.
-
----
 
 # Some Utils and Accessories
 
