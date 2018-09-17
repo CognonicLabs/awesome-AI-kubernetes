@@ -122,9 +122,14 @@ Kubernetes means **Helmsman** and originated with Google's Borg:
 
 ---
 
-[Kubeflow](http://kubeflow.org/)  Cloud Native platform for machine learning. https://github.com/kubeflow/kubeflow
+[Kubeflow](http://kubeflow.org/)  Cloud Native platform for machine learning. https://github.com/kubeflow/kubeflow The Kubeflow project is dedicated to making deployments of machine learning (ML) workflows on Kubernetes simple, portable and scalable. Our goal is not to recreate other services, but to provide a straightforward way to deploy best-of-breed open-source systems for ML to diverse infrastructures. Anywhere you are running Kubernetes, you should be able to run Kubeflow.
+- TensorFlow model training - A TensorFlow Training Controller that can be configured to use either CPU’s or GPUs and be dynamically adjusted to the size of a cluster with a single setting. We also provide a [TensorFlow job operator](https://github.com/kubeflow/tf-operator).
+- Model serving - A TensorFlow Serving container to export trained TensorFlow models to Kubernetes. We also integrate with [Seldon Core](https://www.seldon.io/), the open source platform for deploying machine learning models on Kubernetes.
+- Multi-framework - Our development plans go beyond TensorFlow, and we are working hard to include [PyTorch](https://github.com/kubeflow/pytorch-operator), [MXNet](https://github.com/kubeflow/mxnet-operator), [Chainer](https://github.com/kubeflow/chainer-operator), and more. We also integrate with [Ambassador](https://www.getambassador.io/) for ingress and [Pachyderm](http://pachyderm.io/)  for managing your data science pipelines.
 
 [Kubeflow Labs](https://github.com/Azure/kubeflow-labs) Train and Serve TensorFlow Models at Scale with Kubernetes and Kubeflow on Azure
+
+[H2O + Kubeflow](https://github.com/h2oai/h2o-kubeflow) H2O + Kubeflow Integration. This is a project for the integration of H2O.ai and Kubeflow. The integration of H2O and Kubeflow is an extremely powerful opportunity, as it provides a turn-key solution for easily deployable and highly scalable machine learning applications, with minimal input required from the user. [Kubeflow](http://kubeflow.org/) is an open source project managed by Google and built on top of their Kubernetes engine. It is designed to alleviate some of the more tedious tasks associated with machine learning. Kubeflow helps orchestrate deployment of apps through the full cycle of development, testing, and production, and allows for resource scaling as demand increases.[H2O 3](http://h2o.ai/)’s goal is to reduce the time spent by data scientists on time-consuming tasks like designing grid search algorithms and tuning hyperparameters, while also providing an interface that allows newer practitioners an easy foothold into the machine learning space. https://github.com/h2oai/h2o-3
 
 ---
 
