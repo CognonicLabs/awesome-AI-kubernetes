@@ -215,6 +215,26 @@ FfDL is a collaboration platform for:
 
 ---
 
+[Rook](https://rook.io/) Storage Orchestration for Kubernetes https://github.com/rook/rook Rook is an open source cloud-native storage orchestrator for Kubernetes, providing the platform, framework, and support for a diverse set of storage solutions to natively integrate with cloud-native environments. Rook turns storage software into self-managing, self-scaling, and self-healing storage services. It does this by automating deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management. Rook uses the facilities provided by the underlying cloud-native container management, scheduling and orchestration platform to perform its duties. Rook integrates deeply into cloud native environments leveraging extension points and providing a seamless experience for scheduling, lifecycle management, resource management, security, monitoring, and user experience.
+
+---
+
+[OpenEBS](https://www.openebs.io/) OpenEBS is containerized block storage written in Go for cloud native and other environments w/ per container (or pod) QoS SLAs, tiering and replica policies across AZs and environments, and predictable and scalable performance. https://github.com/openebs/openebs OpenEBS enables the use of containers for mission-critical, persistent workloads. OpenEBS is containerized storage and related storage services.
+
+OpenEBS allows you to treat your persistent workload containers, such as DBs on containers, just like other containers. OpenEBS itself is deployed as just another container on your host and enables storage services that can be designated on a per pod, application, cluster or container level, including:
+- Data persistence across nodes, dramatically reducing time spent rebuilding Cassandra rings for example.
+- Synchronization of data across availability zones and cloud providers.
+- Use of commodity hardware plus a container engine to deliver so called container attached block storage.
+- Integration with Kubernetes, so developer and application intent flows into OpenEBS configurations automatically.
+- Management of tiering to and from S3 and other targets.
+
+Our vision is simple: let storage and storage services for persistent workloads be fully integrated into the environment and hence can be managed automatically that it almost disappears into the background as just yet another infrastructure service that just works.
+
+[Open EBS Maya](https://github.com/openebs/maya) OpenEBS Maya extends Kubernetes capabilities to orchestrate CAS containers. OpenEBS Maya extends the capabilities of Kubernetes to orchestrate CAS (aka Container Native) Storage Solutions like OpenEBS Jiva, OpenEBS cStor, etc. Maya (meaning Magic), seamlessly integrates into the Kubernetes Storage Workflow and helps provision and manage the CAS based Storage Volumes. 
+
+[OpenEBS Helm Charts](https://github.com/openebs/charts)
+
+
 ---
 
 # Can Spark still be Master of the Sea?
