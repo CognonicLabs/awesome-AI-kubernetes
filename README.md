@@ -176,6 +176,22 @@ FfDL is a collaboration platform for:
 
 ---
 
+[Dask](http://dask.pydata.org/en/latest/) Dask natively scales Python. https://github.com/dask/dask  Dask provides advanced parallelism for analytics. [Dask Example Notebooks](https://github.com/dask/dask-examples) [Dask Tutorial](https://github.com/dask/dask-tutorial)
+- Dask arrays scale Numpy workflows, enabling multi-dimensional data analysis in earth science, satellite imagery, genomics, biomedical applications, and machine learning algorithms
+- Dask dataframes scale Pandas workflows, enabling applications in time series, business intelligence, and general data munging on big data
+- Dask-ML scales machine learning APIs like Scikit-Learn and XGBoost to enable scalable training and prediction on large models and large datasets.
+
+[Dask Kubernetes](https://dask-kubernetes.readthedocs.io/en/latest/) Dask Kubernetes deploys Dask workers on Kubernetes clusters using native Kubernetes APIs. It is designed to dynamically launch short-lived deployments of workers during the lifetime of a Python process. 
+Currently, it is designed to be run from a pod on a Kubernetes cluster that has permissions to launch other pods. However, it can also work with a remote Kubernetes cluster (configured via a kubeconfig file), as long as it is possible to open network connections with all the workers nodes on the remote cluster. https://github.com/dask/dask-kubernetes [Helm chart for Dask](https://github.com/dask/helm-chart) Helm chart for Dask. We've moved development to stable/dask [Dask docker images](https://github.com/dask/dask-docker) Docker images for dask-distributed. images are built primarily for the dask-distributed Helm Chart but they should work for more use cases.
+- Base image to use for dask scheduler and workers
+- Jupyter Notebook image to use as helper entrypoint
+
+[Dask-ML](http://ml.dask.org/) Dask-ML provides scalable machine learning in Python using Dask alongside popular machine learning libraries like Scikit-Learn. https://github.com/dask/dask-ml 
+
+[Dask-XGBoost](https://github.com/dask/dask-xgboost) Distributed training with XGBoost and [Dask.distributed](http://distributed.readthedocs.io/en/latest/) This repository enables you to perform distributed training with XGBoost on Dask.array and Dask.dataframe collections.
+
+---
+
 [Helm Charts Apache Kafka](https://github.com/Landoop/kafka-helm-charts) Kubernetes Helm charts for Apache Kafka and Kafka Connect and other components for data streaming and data integration. [Stream-reactor](https://github.com/Landoop/stream-reactor) and Kafka Connectors any environment variable beginning with CONNECT is used to build the Kafka Connect properties file, the Connect cluster is started with this file in distributed mode.
 
 ---
