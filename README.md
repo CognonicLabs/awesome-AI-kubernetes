@@ -1,5 +1,6 @@
 # :snowflake: :whale: Awesome AI, ML and Data Science on Kubernetes
-Tools for AI, DL, ML, CV, DS, Analytics baked in the oven to be Native on [Kubernetes](http://kubernetes.io/)
+
+Awesome tools and libs for AI, Deep Learning, Machine Learning, Computer Vision, Data Science, Data Analytics and [Cognitive Computing](https://github.com/cognonic) that are baked in the oven to be Native on [Kubernetes](http://kubernetes.io/) and [Docker](https://www.docker.com/) with [Python](https://www.anaconda.com/download/), [R](https://mran.microsoft.com/open), [Scala](https://github.com/JetBrains/intellij-scala-bundle), [Java](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html), [C#](https://github.com/dotnet/core), [Go](https://golang.org/), [Julia](https://julialang.org/downloads/), [C++](https://isocpp.org/) etc
 
 *"The wind and the waves are always on the side of the ablest navigator."* [Edmund Gibbon, Historian](http://www.seasky.org/quotes/sea-quotes-ocean-ships-sailing.html)
 
