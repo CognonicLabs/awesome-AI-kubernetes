@@ -415,7 +415,9 @@ Gateways
 - supporting code completion in tooling
 - implementing alternative Brigade backends
 
+---
 
+[ksonnet](https://ksonnet.io/)
 
 ---
 
