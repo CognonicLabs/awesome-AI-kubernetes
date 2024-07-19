@@ -201,6 +201,10 @@ Currently, it is designed to be run from a pod on a Kubernetes cluster that has 
 
 ---
 
+[ZenML + Kubernetes + Kubeflow: Leveraging your MLOps infrastructure](https://www.zenml.io/blog/zenml-kubernetes-kubeflow) The journey from model conception to deployment in machine learning is fraught with infrastructure management challenges. Machine learning engineers often struggle to ensure models function correctly in production without constant supervision. In this blog, we explore how ZenML simplifies these challenges by abstracting the complexities of MLOps on Kubernetes and Kubeflow, providing reliable deployment environments for machine learning engineers.
+
+---
+
 # Pipeline and Data Flow
 
 ---
