@@ -165,6 +165,23 @@ FfDL is a collaboration platform for:
 
 ---
 
+[AgentField](https://agentfield.ai) Open-source infrastructure for AI backends. The microservices moment for AI: just as web applications evolved from monoliths to microservices, AI systems need the same architectural progression. AgentField provides the control plane. https://github.com/Agent-Field/agentfield
+
+**Architecture:**
+- **Agent nodes as microservices**: Independently deployable, scalable, ownable by different teams
+- **Control plane orchestration**: Service discovery, routing, health probes, workflow DAGs
+- **Async-first execution**: Long-running inference chains (30+ seconds to hours) without timeouts
+
+**Key Features:**
+- Kubernetes-style orchestration for AI agent workloads
+- W3C DID/VC identity infrastructure—"Okta for agents"
+- Built-in memory fabric with vector search (no separate database setup)
+- Cross-agent RPC with automatic identity verification
+- Prometheus metrics and automatic observability
+- Same code runs locally, Docker, Railway, or Kubernetes
+
+---
+
 
 
 # ML that is adapted for Kubernetes
