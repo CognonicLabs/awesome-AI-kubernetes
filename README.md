@@ -421,6 +421,10 @@ Gateways
 
 ---
 
+[k8s4claw](https://github.com/Prismer-AI/k8s4claw) Kubernetes operator for managing heterogeneous AI agent runtimes. One CRD manages the full lifecycle: StatefulSet, IPC Bus (WAL + DLQ + backpressure), channel sidecars (Slack, Discord, Webhook), auto-updates with circuit breaker, PVC persistence, and CSI snapshots. Supports 5 built-in runtimes plus custom runtimes. Go, Apache-2.0.
+
+---
+
 # The End Justifies... whatever is here
 
 ---
