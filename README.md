@@ -165,6 +165,10 @@ FfDL is a collaboration platform for:
 
 ---
 
+[KubeStellar Console](https://github.com/kubestellar/console) Open source AI-powered multi-cluster Kubernetes dashboard for hybrid edge and cloud environments. Provides real-time observability, AI chat for cluster troubleshooting and autonomous operations, GPU monitoring, and 20+ CNCF integrations (Argo, Kyverno, Prometheus, Grafana, Istio, Flux, Falco, OPA/Gatekeeper). CNCF Sandbox project (Apache 2.0). https://console.kubestellar.io
+
+---
+
 
 
 # ML that is adapted for Kubernetes
