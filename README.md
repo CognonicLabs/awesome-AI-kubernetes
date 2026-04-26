@@ -40,6 +40,7 @@ You might also be looking for something far less specific and here are some sugg
 - [Awesome Docker](https://github.com/veggiemonk/awesome-docker)
 - [container-security-awesome](https://github.com/kai5263499/container-security-awesome)
 - [Awesome Linux Containers](https://github.com/Friz-zy/awesome-linux-containers)
+- [KubeStellar Console](https://github.com/kubestellar/console) — Multi-cluster Kubernetes dashboard with AI-powered operations (LLM-driven diagnostics via MCP), real-time observability, and CNCF project integrations across edge and cloud clusters
 
 **Spark**
 
